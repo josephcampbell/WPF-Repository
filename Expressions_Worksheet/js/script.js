@@ -36,3 +36,17 @@ var forSparky = totalSlices-eaten
 // Result to print.
 
 console.log("Sparky got" + " " + forSparky + " " + "slices of pizza.")
+
+// Problem: Total and average spent on groceries for the past five weeks.
+
+// Total spent each week.
+var weeklyTotals = [214, 107, 194, 228, 139]
+// Total amount spent on groceries.
+var total = weeklyTotals[0] + weeklyTotals[1] + weeklyTotals[2] + weeklyTotals[3] + weeklyTotals[4]
+// Average weekly grocery spending.
+var average = total/5
+
+// Result to print.
+
+console.log("You have spent a total of" + " " + "$" + total + " " + "on groceries over 5 weeks. That is an average of" + " " + "$" + average + " " + "per week.")
+
