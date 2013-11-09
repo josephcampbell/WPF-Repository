@@ -6,7 +6,7 @@ var vehicleMpg = [22, 17, 28, 15, 23];
 // This array shows the miles per gallon statistics for five vehicles.
 
 var avgMpg = (vehicleMpg[0] + vehicleMpg[1] + vehicleMpg[2] + vehicleMpg[3] + vehicleMpg[4])/5;
-// This calculates the average vehicle mpg of the array.
+// This calculates the average vehicle miles per gallon of the array on line 5.
 
 var distance = prompt("In order to compare costs, Please enter the distance you need to travel.");
 // This asks the user to enter how far they are planning to travel.
