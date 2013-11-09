@@ -1,6 +1,6 @@
 // Joseph Campbell 11-08-2013 Expressions_Personal
 
-// Problem: Does it cost more or less to travel in your vehicle compared to the average vehicle?
+// Problem: How much will it cost to travel in your vehicle compared to the average vehicle?
 
 var vehicleMpg = [22, 17, 28, 15, 23];
 // This shows five different vehicle statistics for miles per gallon.
@@ -23,8 +23,8 @@ var result = (distance/mpg)*price;
 var avgResult = (distance/avgMpg)*price;
 // This calculates how much it would cost for the average vehicle to travel.
 
-alert("You will need " + "$" + result + " for fuel to travel this distance.");
+alert("It would cost you " + "$" + result + ", compared to the " + "$" + avgResult + "it would cost to drive the average vehicle.");
 // This shows the user the results in the pop up window.
  
-console.log("It will cost you " + "$" + result + " in fuel to travel " + distance + " miles.");
+console.log("It will cost you " + "$" + result + " in fuel to travel " + distance + " miles, compared to the " + "$" + avgResult + " it would cost the average vehicle.");
 // This prints the result to the console.
