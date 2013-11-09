@@ -18,7 +18,7 @@ var mpg = prompt("Please enter your vehicles miles per gallon statistics.");
 // This asks the user to enter the mpg of their vehicle.
 
 var result = (distance/mpg)*price;
-// This calculates how much it would cost the user in fuel to travel.
+// This calculates how much it would cost the user in fuel to travel the determined distance.
 
 var avgResult = (distance/avgMpg)*price;
 // This calculates how much it would cost for the average vehicle to travel.
