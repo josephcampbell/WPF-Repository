@@ -3,6 +3,7 @@
 // Problem: Does it cost more or less to travel in your vehicle compared to the average vehicle?
 
 var vehicleMpg = [22, 17, 28, 15, 23]
+// This shows five different vehicle statistics for miles per gallon.
 
 var distance = prompt("Please enter the distance you need to travel.");
 // This asks the user to enter how far they are planning to travel.
