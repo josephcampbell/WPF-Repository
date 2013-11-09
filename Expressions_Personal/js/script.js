@@ -14,7 +14,7 @@ var distance = prompt("In order to compare costs, Please enter the distance you 
 var price = prompt("Please enter the price of the fuel you will be using."); 
 // This asks the user to enter the price of fuel.
  
-var mpg = prompt("Please enter your vehicles miles per gallon."); 
+var mpg = prompt("Please enter your vehicles miles per gallon statistics."); 
 // This asks the user to enter the mpg of their vehicle.
 
 var result = (distance/mpg)*price;
