@@ -1,6 +1,8 @@
 // Joseph Campbell 11-08-2013 Expressions_Personal
 
-// Problem: Calculate how much it would cost in fuel traveling by car.
+// Problem: Does it cost more or less to travel in your vehicle compared to the average vehicle?
+
+var vehicleMpg = [22, 17, 28, 15, 23]
 
 var distance = prompt("Please enter the distance you need to travel.");
 // This asks the user to enter how far they are planning to travel.
