@@ -2,10 +2,10 @@
 
 // Problem: Does it cost more or less to travel in your vehicle compared to the average vehicle?
 
-var vehicleMpg = [22, 17, 28, 15, 23]
+var vehicleMpg = [22, 17, 28, 15, 23];
 // This shows five different vehicle statistics for miles per gallon.
 
-var averageMpg = (vehicleMpg[0] + vehicleMpg[1] + vehicleMpg[2] + vehicleMpg[3] + vehicleMpg[4])/5
+var avgMpg = (vehicleMpg[0] + vehicleMpg[1] + vehicleMpg[2] + vehicleMpg[3] + vehicleMpg[4])/5;
 // This calculates the average vehicle mpg of the array.
 
 var distance = prompt("Please enter the distance you need to travel.");
@@ -19,6 +19,8 @@ var mpg = prompt("Please enter your vehicles miles per gallon.");
 
 var result = (distance/mpg)*price;
 // This calculates how much it would cost the user in fuel to travel.
+
+var avgResult = (distance/avgMpg)*price;
 
 alert("You will need " + "$" + result + " for fuel to travel this distance.");
 // This shows the user the results in the pop up window.
