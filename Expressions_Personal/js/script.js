@@ -15,6 +15,7 @@ var result = (distance/mpg)*price;
 // This calculates how much it would cost the user in fuel to travel.
 
 alert("You will need " + "$" + result + " for fuel to travel this distance.");
+// This shows the user the results in the pop up window.
  
 console.log("It will cost you " + "$" + result + " in fuel to travel " + distance + " miles.");
 // This prints the result to the console.
