@@ -50,3 +50,21 @@ var average = total/5
 
 console.log("You have spent a total of" + " " + "$" + total + " " + "on groceries over 5 weeks. That is an average of" + " " + "$" + average + " " + "per week.")
 
+// Problem: Calculate the discounted price for an item.
+
+// Original price of item.
+var original = 399
+// Discount percentage.
+var discount = .10
+// Description of item.
+var itemDesc = "ipad"
+// Sales tax percentage.
+var tax = .06
+// Price of the item without tax.
+var noTax = original-(original*discount)
+// Price of the item with tax.
+var withTax = noTax+(noTax*tax)
+
+
+// Result to print.
+console.log("Your" + " " + itemDesc + " " + "was originally" + " " + "$" + original + "," + " " + "but after a" + " " + discount + "%" + " " + "discount, it is now" + " " + "$" + noTax + " " + "without tax, and" + " " + "$" + withTax + " " + "with tax.") 
