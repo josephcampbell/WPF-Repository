@@ -3,7 +3,7 @@
 // Problem: How much will it cost to travel in your vehicle compared to the average vehicle?
 
 var vehicleMpg = [22, 17, 28, 15, 23];
-// This shows five different vehicle statistics for miles per gallon.
+// This array shows the miles per gallon statistics for five vehicles.
 
 var avgMpg = (vehicleMpg[0] + vehicleMpg[1] + vehicleMpg[2] + vehicleMpg[3] + vehicleMpg[4])/5;
 // This calculates the average vehicle mpg of the array.
