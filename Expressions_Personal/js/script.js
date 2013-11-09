@@ -8,7 +8,7 @@ var vehicleMpg = [22, 17, 28, 15, 23];
 var avgMpg = (vehicleMpg[0] + vehicleMpg[1] + vehicleMpg[2] + vehicleMpg[3] + vehicleMpg[4])/5;
 // This calculates the average vehicle mpg of the array.
 
-var distance = prompt("Please enter the distance you need to travel.");
+var distance = prompt("In order to compare costs, /n Please enter the distance you need to travel.");
 // This asks the user to enter how far they are planning to travel.
 
 var price = prompt("Please enter the price of the fuel you will be using."); 
