@@ -23,7 +23,7 @@ var result = (distance/mpg)*price;
 var avgResult = (distance/avgMpg)*price;
 // This calculates how much it would cost for the average vehicle to travel.
 
-alert("It would cost you " + "$" + result + ", compared to the " + "$" + avgResult + "it would cost to drive the average vehicle.");
+alert("It would cost you " + "$" + result + " to travel " + distance + " miles, compared to the " + "$" + avgResult + "it would cost to drive the average vehicle.");
 // This shows the user the results in the pop up window.
  
 console.log("It will cost you " + "$" + result + " in fuel to travel " + distance + " miles, compared to the " + "$" + avgResult + " it would cost the average vehicle.");
