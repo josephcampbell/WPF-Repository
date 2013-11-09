@@ -21,6 +21,7 @@ var result = (distance/mpg)*price;
 // This calculates how much it would cost the user in fuel to travel.
 
 var avgResult = (distance/avgMpg)*price;
+// This calculates how much it would cost for the average vehicle to travel.
 
 alert("You will need " + "$" + result + " for fuel to travel this distance.");
 // This shows the user the results in the pop up window.
